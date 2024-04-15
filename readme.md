@@ -1,4 +1,4 @@
-<img src='./bg.png' width=900>
+<img src='./docs_user/bg.png' width=900>
 
 # 项目介绍
 
