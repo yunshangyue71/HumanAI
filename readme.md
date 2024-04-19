@@ -15,11 +15,11 @@ ARVR 等
 
 # 视频链接
 ### models
-每个功能当前最好的效果， 如有改进会在这里更新
+每个功能当前最好的效果， 如有改进会在这里更新  
 [身体检测、2d姿态估计、3d姿态估计](https://www.bilibili.com/video/BV1pZ421v7Kv/?spm_id_from=333.999.0.0&vd_source=749ec648430448c32529b54f8b808901)
 
 ### totals
-所有的视频链接， 会在这里面添加
+所有的视频链接， 会在这里面添加  
 [B站合集： 包含所有的视频](https://space.bilibili.com/479651724/channel/collectiondetail?sid=2090458)
 
 # CSDN
@@ -70,5 +70,6 @@ ARVR 等
 不能修改文件名字，文件路径可以随着项目指定
 3. 其余路径修改可在config.json进行配置即可
 
-# 
-  
+# Template
+下图是项目中使用的template, 在 docs_user/template 可以将所有的几何文件加载自己详细查看
+<img src='./docs_user/template.jpg' width=800>  
