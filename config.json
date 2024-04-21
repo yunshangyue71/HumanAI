@@ -7,21 +7,23 @@
     "rotate_clock_wise_describe": "0: raw img; 90, 180, 270",
 
     "output_mode": 0,
-    "output_mode_describe":"0 no out, 1 ",
+    "output_mode_describe":"0 no out, 1 plot 3d skeleton,",
 
-    "plot_flag": true,
-    "plot_flag_decribe":"weather plot the result or not",
-
+    "plot_skeleton_flag": true,
+    "plot_skeleton_flag_decribe":"weather plot the skeleton result or not",
+	"plot_smpl_flag": true,
+	"plot_smpl_flag_describe": "weather plot the smpl  model",
+	
+	
     "log_level": 0,
     "log_path":"./resource/logs/app.log",
     "log_describe":"log files will save at log_dir named app",
 
     "model_root":"./resource/ckpts/",
-	"model_decribe":"The last backslash cannot be lost. put ALL CNN models in this folder, ",
-
     "model_mode": 0,
-    "model_decribe":"put ALL CNN models in this folder",
-
+    "model_decribe":"The last backslash cannot be lost. put ALL CNN models in this folder, ",
+	"smpl_model_root" : "./resource/ckpts/",
+	
     "license_path":"./resource/license.bin",
 
     "end":"end of config"
