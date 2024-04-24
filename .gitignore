@@ -5,3 +5,4 @@
 *.bin
 *.mp4
 *.log
+resource/ckpts/basicmodel_neutral_lbs_10_207_0_v1.1.0.json
