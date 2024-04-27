@@ -1,0 +1,206 @@
+HIERARCHY
+ROOT pelvis
+{
+	OFFSET -0.001795 -0.223333 0.028219
+	CHANNELS 6 Xposition Yposition Zposition Zrotation Xrotation Yrotation
+	JOINT spine1
+	{
+		OFFSET -0.002533 0.108963 -0.026696
+		CHANNELS 3 Zrotation Xrotation Yrotation
+		JOINT spine2
+		{
+			OFFSET 0.005487 0.135180 0.001092
+			CHANNELS 3 Zrotation Xrotation Yrotation
+			JOINT spine3
+			{
+				OFFSET 0.001457 0.052922 0.025425
+				CHANNELS 3 Zrotation Xrotation Yrotation
+				JOINT right_collar
+				{
+					OFFSET -0.081759 0.118833 -0.038615
+					CHANNELS 3 Zrotation Xrotation Yrotation
+					JOINT right_shoulder
+					{
+						OFFSET -0.096012 0.032551 -0.009144
+						CHANNELS 3 Zrotation Xrotation Yrotation
+						JOINT right_elbow
+						{
+							OFFSET -0.253742 -0.013329 -0.021400
+							CHANNELS 3 Zrotation Xrotation Yrotation
+							JOINT right_wrist
+							{
+								OFFSET -0.255299 0.007773 -0.005560
+								CHANNELS 3 Zrotation Xrotation Yrotation
+								End Site rpinky
+								{
+									OFFSET -0.132839 -0.013308 -0.070535
+								}
+								End Site rring
+								{
+									OFFSET -0.170050 -0.004601 -0.041005
+								}
+								End Site rmiddle
+								{
+									OFFSET -0.187762 -0.001626 -0.011538
+								}
+								End Site rindex
+								{
+									OFFSET -0.178543 -0.006168 0.026017
+								}
+								End Site rthumb
+								{
+									OFFSET -0.097521 -0.023151 0.093138
+								}
+								End Site right_index1
+								{
+									OFFSET -0.084621 -0.006118 -0.010315
+								}
+							}
+						}
+					}
+				}
+				JOINT left_collar
+				{
+					OFFSET 0.078845 0.121750 -0.034090
+					CHANNELS 3 Zrotation Xrotation Yrotation
+					JOINT left_shoulder
+					{
+						OFFSET 0.090977 0.030469 -0.008868
+						CHANNELS 3 Zrotation Xrotation Yrotation
+						JOINT left_elbow
+						{
+							OFFSET 0.259612 -0.012772 -0.027456
+							CHANNELS 3 Zrotation Xrotation Yrotation
+							JOINT left_wrist
+							{
+								OFFSET 0.249234 0.008986 -0.001171
+								CHANNELS 3 Zrotation Xrotation Yrotation
+								End Site lpinky
+								{
+									OFFSET 0.134809 -0.014322 -0.071885
+								}
+								End Site lring
+								{
+									OFFSET 0.172999 -0.005447 -0.041618
+								}
+								End Site lmiddle
+								{
+									OFFSET 0.191833 -0.002759 -0.012728
+								}
+								End Site lindex
+								{
+									OFFSET 0.182203 -0.006562 0.025221
+								}
+								End Site lthumb
+								{
+									OFFSET 0.104743 -0.021598 0.088013
+								}
+								End Site left_index1
+								{
+									OFFSET 0.084042 -0.008162 -0.014946
+								}
+							}
+						}
+					}
+				}
+				JOINT neck
+				{
+					OFFSET -0.002778 0.213871 -0.042857
+					CHANNELS 3 Zrotation Xrotation Yrotation
+					JOINT head
+					{
+						OFFSET 0.005152 0.064969 0.051349
+						CHANNELS 3 Zrotation Xrotation Yrotation
+						End Site lear
+						{
+							OFFSET 0.069154 0.068554 -0.028944
+						}
+						End Site rear
+						{
+							OFFSET -0.077038 0.065916 -0.031074
+						}
+						End Site leye
+						{
+							OFFSET 0.029363 0.095361 0.062678
+						}
+						End Site reye
+						{
+							OFFSET -0.037212 0.094865 0.061121
+						}
+						End Site nose
+						{
+							OFFSET -0.003764 0.060070 0.100377
+						}
+					}
+				}
+			}
+		}
+	}
+	JOINT right_hip
+	{
+		OFFSET -0.067671 -0.090522 -0.004320
+		CHANNELS 3 Zrotation Xrotation Yrotation
+		JOINT right_knee
+		{
+			OFFSET -0.038290 -0.382569 -0.008850
+			CHANNELS 3 Zrotation Xrotation Yrotation
+			JOINT right_ankle
+			{
+				OFFSET 0.015774 -0.398415 -0.042312
+				CHANNELS 3 Zrotation Xrotation Yrotation
+				End Site RHeel
+				{
+					OFFSET -0.008381 -0.042855 -0.057845
+				}
+				End Site RSmallToe
+				{
+					OFFSET -0.060800 -0.059704 0.149275
+				}
+				End Site RBigToe
+				{
+					OFFSET 0.014577 -0.052963 0.193722
+				}
+				End Site right_foot
+				{
+					OFFSET -0.025372 -0.048144 0.123348
+				}
+			}
+		}
+	}
+	JOINT left_hip
+	{
+		OFFSET 0.069520 -0.091407 -0.006815
+		CHANNELS 3 Zrotation Xrotation Yrotation
+		JOINT left_knee
+		{
+			OFFSET 0.034276 -0.375198 -0.004496
+			CHANNELS 3 Zrotation Xrotation Yrotation
+			JOINT left_ankle
+			{
+				OFFSET -0.013595 -0.397961 -0.043693
+				CHANNELS 3 Zrotation Xrotation Yrotation
+				End Site LHeel
+				{
+					OFFSET 0.009471 -0.033909 -0.060817
+				}
+				End Site LSmallToe
+				{
+					OFFSET 0.063119 -0.063840 0.145857
+				}
+				End Site LBigToe
+				{
+					OFFSET -0.006473 -0.056735 0.193718
+				}
+				End Site left_foot
+				{
+					OFFSET 0.026358 -0.055791 0.119288
+				}
+			}
+		}
+	}
+}
+MOTION
+Frames: 2
+Frame Time: 0.03333
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+-0.030405 0.265246 3.345829 5.657118 -134.563522 4.137287 177.164352 119.848663 178.977631 1.257401 -7.272586 -0.334004 178.069626 171.606964 -173.344940 166.897964 172.220154 -149.328323 168.991959 -173.325668 -130.650986 160.688461 -179.438889 -172.926422 -0.000000 0.000000 -0.000000 19.766314 6.480507 -30.933502 7.852021 -5.999261 -55.824886 21.353518 0.416392 2.083250 -0.000000 0.000000 -0.000000 3.211138 7.022587 -3.146852 174.228653 -166.332672 -176.062042 141.392334 -114.378441 162.919281 9.923328 3.476057 -1.212586 1.054119 18.521448 -12.622440 41.335655 -57.606060 16.895569 172.641388 177.565887 -179.121597 1.322437 9.607631 8.782143

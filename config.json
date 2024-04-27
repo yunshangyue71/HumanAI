@@ -1,13 +1,15 @@
 {
     "input_mode": -1,
     "input_mode_describe":"-1: video; -2: img; [0, ...]: came_id",
-    "video_path":"./resource/ticao2.mp4",
-    "img_path":"",
+    "video_path":"./resource/exercise.mp4",
+    "img_path":"./resource/ticao_wanyao.jpg",
     "rotate_clock_wise": 0,
     "rotate_clock_wise_describe": "0: raw img; 90, 180, 270",
 
-    "output_mode": 0,
-    "output_mode_describe":"0 no out, 1 plot 3d skeleton,",
+    "output_mode": 1,
+    "output_mode_describe":"0 no out, 1 bvh",
+    "outputs_dir": "./resource/outputs",
+
 
     "plot_skeleton_flag": true,
     "plot_skeleton_flag_decribe":"weather plot the skeleton result or not",

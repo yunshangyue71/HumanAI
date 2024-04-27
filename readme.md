@@ -1,5 +1,8 @@
 <img src='./docs_user/bg.png' width=900>
 
+# 联系方式
+2415676294@qq.com
+
 # 项目介绍
 
 人体检测
@@ -49,6 +52,7 @@ ARVR 等
 
 ### output format
 - [x] plot，可视化
+- [x] BVH , 动捕文件
 - [ ] fbx
 
 # 项目路径
@@ -73,3 +77,8 @@ ARVR 等
 # Template
 下图是项目中使用的template, 在 docs_user/template 可以将所有的几何文件加载自己详细查看
 <img src='./docs_user/template.jpg' width=800>  
+
+# 3d 姿态估计 smpl 模型 bvh 效果
+bvh 数据注意事项  
+肩膀髋关节的扭曲，放到了手肘和膝盖。
+<img src='./docs_user/3d_pose_bvh_smpl.jpg' width=900>  
